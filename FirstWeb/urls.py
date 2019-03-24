@@ -22,8 +22,7 @@ from . import view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-]
-
-urlpatterns = [
+    path('htmltest/', view.htmltest),
     url(r'^$', view.hello),
 ]
+
